@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80461589179",
+    "project_id": "firestore-manajemen-rumahmakan",
+    "storage_bucket": "firestore-manajemen-rumahmakan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80461589179:android:3d7edb141f20e5edd8979e",
+        "android_client_info": {
+          "package_name": "com.example.myresto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5sBndceGQ35_iXX3e7yThuxOV8KYCco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

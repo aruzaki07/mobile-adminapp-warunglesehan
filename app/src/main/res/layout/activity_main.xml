@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainActivity">
+
+    <Button
+        android:id="@+id/daftarmenubutton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#F0A350"
+        android:text="Daftar Menu"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline" />
+
+    <ImageView
+        android:id="@+id/daftarmenuicon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/daftarmenuicon"
+        app:layout_constraintBottom_toBottomOf="@+id/daftarmenubutton"
+        app:layout_constraintStart_toStartOf="@id/daftarmenubutton"
+        app:layout_constraintTop_toTopOf="@+id/daftarmenubutton" />
+
+    <Button
+        android:id="@+id/daftarpesananbutton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Daftar Pesanan"
+        android:backgroundTint="#F0A350"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/menunggupembayaranbutton"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/menunggupembayaranbutton"
+        app:layout_constraintTop_toBottomOf="@+id/menunggupembayaranbutton" />
+
+    <ImageView
+        android:id="@+id/daftarpesananicon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/daftarpesanan_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/daftarpesananbutton"
+        app:layout_constraintStart_toStartOf="@id/daftarpesananbutton"
+        app:layout_constraintTop_toTopOf="@+id/daftarpesananbutton" />
+
+    <Button
+        android:id="@+id/menunggupembayaranbutton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Menunggu Pembayaran"
+        android:textColor="@color/black"
+        android:backgroundTint="#F0A350"
+        app:layout_constraintEnd_toEndOf="@+id/daftarmenubutton"
+        app:layout_constraintStart_toStartOf="@id/daftarmenubutton"
+        app:layout_constraintTop_toBottomOf="@id/daftarmenubutton" />
+
+    <ImageView
+        android:id="@+id/menunggupembayaranicon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/menunggupembayaran_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/menunggupembayaranbutton"
+        app:layout_constraintStart_toStartOf="@id/menunggupembayaranbutton"
+        app:layout_constraintTop_toTopOf="@+id/menunggupembayaranbutton" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="183dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/historypenjualanbutton"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Laporan Penjualan"
+        android:textColor="@color/black"
+        android:backgroundTint="#F0A350"
+        app:layout_constraintEnd_toEndOf="@+id/daftarpesananbutton"
+        app:layout_constraintStart_toStartOf="@+id/daftarpesananbutton"
+        app:layout_constraintTop_toBottomOf="@+id/daftarpesananbutton" />
+
+    <ImageView
+        android:id="@+id/historypenjualanicon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/historypenjualan_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/historypenjualanbutton"
+        app:layout_constraintStart_toStartOf="@id/historypenjualanbutton"
+        app:layout_constraintTop_toTopOf="@+id/historypenjualanbutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
